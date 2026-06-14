@@ -1,4 +1,4 @@
-// ═══════════════════════════════════════════════════════════════════
+﻿// ═══════════════════════════════════════════════════════════════════
 // Site Configuration — Location Voiture Djerba
 // Domain: locationvoituredjerba.com | FR | Djerba island
 // ═══════════════════════════════════════════════════════════════════
@@ -182,13 +182,15 @@ export const siteConfig = {
     },
 
     theme: {
-        primary: "#00256f",
-        primaryContainer: "#1a3c8f",
+        heroVariant: "overlay",   // "overlay" | "split"
+        cardVariant: "default",   // "default" | "outlined"
+        primary: "#c2410c",
+        primaryContainer: "#9a3412",
         primaryFixed: "#dbe1ff",
         onPrimary: "#ffffff",
-        onPrimaryContainer: "#92abff",
-        accent: "#00256f",
-        accentDark: "#1a3c8f",
+        onPrimaryContainer: "#fdba74",
+        accent: "#c2410c",
+        accentDark: "#9a3412",
         background: "#f7f9fc",
         surface: "#f7f9fc",
         surfaceContainerLow: "#f2f4f7",
@@ -197,7 +199,7 @@ export const siteConfig = {
         onSurface: "#191c1e",
         onSurfaceVariant: "#444651",
         outlineVariant: "#c4c6d3",
-        footerBg: "#172554",
+        footerBg: "#431407",
     },
 } as const;
 
