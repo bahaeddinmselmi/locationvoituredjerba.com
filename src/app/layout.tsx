@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+mport type { Metadata } from "next";
 import { Nunito, Open_Sans } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
