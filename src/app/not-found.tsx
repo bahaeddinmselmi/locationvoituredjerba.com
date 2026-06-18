@@ -23,7 +23,7 @@ const t = {
 } as const;
 
 export default function NotFound() {
-    const lang = (siteConfig.lang === 'en' ? 'en' : 'fr') as keyof typeof t;
+    const lang = ((siteConfig.lang as string) === 'en' ? 'en' : 'fr') as keyof typeof t;
     const c = t[lang];
 
     return (
